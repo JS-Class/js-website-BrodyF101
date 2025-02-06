@@ -15,39 +15,14 @@ h3
 
 body
 {
-    background-color:rgb(123, 146, 227);
-    color:rgb(21, 21, 61);
+    background-color:rgb(157, 174, 236);
+    color:rgb(0, 0, 0);
     font-family:Arial, Helvetica, sans-serif;
-}
-
-h6
-{
-    font-weight: normal;
-}
-
-strong
-{
-    color:black;
-}
-
-em
-{
-    color:black;
-}
-
-#squid
-{
-    color:aqua;
-}
-
-#aboutSection
-{
-    color:aqua;
 }
 
 header
 {
-    color:rgb(70, 25, 98);
+    color:rgb(14, 10, 70);
 }
 
 h4
@@ -63,4 +38,41 @@ h4
 #footer
 {
     color:black;
+}
+
+img
+{
+    vertical-align: middle;
+}
+
+nav
+{
+    background-color: black;
+    line-height: 2em;
+    display: block;
+}
+
+nav li
+{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+    color:black;
+}
+
+nav a:link
+{
+    color:white;
+    text-decoration: none;
+}
+
+nav a:visited
+{
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover
+{
+    text-decoration: none;
 }
