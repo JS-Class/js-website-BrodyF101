@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <!--Meta tags-->
+
+        <meta name="description" content="This is a page about Brody Fisher.">
+        <meta name="keywords" content="Brody, Fisher, Brody Fisher">
+
+        <!--Title for my webpage-->
+
+        <title>Brody Fisher's Web Page</title>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1>Pizza Order Form</h1>
+
+            <!--Navigation bar-->
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="Home Page">Home Page</a></li>
+                    <li><a href="page2.html" title="Second Page">Second Page</a></li>
+                    <li><a href="page3.html" title="College Courses">College Courses</a></li>
+                    <li><a href="page4.html" title="Pizza Form">Pizza Form</a></li>
+                </ul>
+            </nav>
+
+            <!--Pizza Order Form-->
+            <form id="pizza_form" action="" method="post">
+
+                <p>Please enter the following information to get your pizza.</p>
+                <p>Name: <input type="text" name="name" id="name"></p>
+                <p>Address: <input type="text" name="address" id="address"></p>
+                <p>Phone Number: <input type="text" name="phone" id="phone"></p>
+                <!--Radio button for pizza size-->
+                <p>Pizza Size: 
+                    <input type="radio" name="pizza_size1" id="pizza_size1">
+                    <label for="pizza_size1">Small</label>
+                    <input type="radio" name="pizza_size2" id="pizza_size2">
+                    <label for="pizza_size2">Medium</label>
+                    <input type="radio" name="pizza_size3" id="pizza_size3">
+                    <label for="pizza_size3">Large</label>
+                </p>
+                <!--Checkbox for the toppings-->
+                <p>Toppings: 
+                    <input type="checkbox" name="topping1" id="topping1">
+                    <label for="topping1">Pepporoni</label>
+                    <input type="checkbox" name="topping2" id="topping2">
+                    <label for="topping2">Sausage</label>
+                    <input type="checkbox" name="topping3" id="topping3">
+                    <label for="topping3">Ham</label>
+                    <input type="checkbox" name="topping4" id="topping4">
+                    <label for="topping4">Anchovies</label>
+                    <input type="checkbox" name="topping5" id="topping5">
+                    <label for="topping5">Extra Cheese</label>
+
+                </p>
+                <p>Notes to the cook: </p>
+                <textarea id="notes_to_cook" name="notes_cook" id="notes_cook" cols="30" rows="10"></textarea>
+                <p><input id="reset_button" type="reset" value="Reset"><input id="submit_button" type="submit" value="Order my Pizza!"></p>
+
+            </form>
+
+        </header>
+
+    </body>
+
+</html>

@@ -1,0 +1,106 @@
+h1 
+{
+    font-size:2.5em;
+    text-align: center;
+    font-style: oblique;
+    line-height: 2em;
+}
+
+h3
+{
+    font-size:1.875em;
+    font-style:oblique;
+    line-height: 1.5em;
+}
+
+body
+{
+    background-color:rgb(157, 174, 236);
+    color:rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header
+{
+    color:rgb(14, 10, 70);
+}
+
+h4
+{
+    text-align:center;
+}
+
+#main
+{
+    font-size:1.25em;
+}
+
+#footer
+{
+    color:black;
+}
+
+img
+{
+    vertical-align: middle;
+}
+
+nav
+{
+    background-color: black;
+    line-height: 2em;
+    display: block;
+}
+
+nav li
+{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+    color:black;
+}
+
+nav a:link
+{
+    color:white;
+    text-decoration: none;
+}
+
+nav a:visited
+{
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover
+{
+    text-decoration: none;
+}
+
+table
+{
+    border:solid 2px black;
+}
+
+td
+{
+    padding:3px;
+    width:200px;
+    text-align:center;
+}
+th
+{
+    padding:3px;
+    text-align:center;
+}
+tr
+{
+    padding:3px;
+    text-align:center;
+}
+#pizza_form
+{
+    color:black;
+    text-align: center;
+    padding: 3px;
+}
